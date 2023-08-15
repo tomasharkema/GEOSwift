@@ -1,4 +1,4 @@
-import geos
+@_implementationOnly import geos
 
 extension MultiPoint: GEOSObjectInitializable {
     init(geosObject: GEOSObject) throws {

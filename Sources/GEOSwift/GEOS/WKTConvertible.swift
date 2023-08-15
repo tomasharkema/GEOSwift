@@ -1,5 +1,5 @@
 import Foundation
-import geos
+@_implementationOnly import geos
 
 public protocol WKTConvertible {
     /// Serializes the `WKTConvertible` to a WKT string representation using the geos-default configuration

@@ -1,4 +1,4 @@
-import geos
+@_implementationOnly import geos
 
 public protocol Boundable: GeometryConvertible {
     func boundary() throws -> Geometry

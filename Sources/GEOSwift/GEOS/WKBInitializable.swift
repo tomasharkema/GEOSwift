@@ -1,5 +1,5 @@
 import Foundation
-import geos
+@_implementationOnly import geos
 
 public protocol WKBInitializable {
     init(wkb: Data) throws

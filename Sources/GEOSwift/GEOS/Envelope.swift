@@ -1,4 +1,4 @@
-@_exported import geos
+@_implementationOnly import geos
 
 public struct Envelope: Hashable, Sendable {
     public internal(set) var minX: Double

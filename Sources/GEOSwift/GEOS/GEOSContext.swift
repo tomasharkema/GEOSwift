@@ -1,4 +1,4 @@
-import geos
+@_implementationOnly import geos
 
 final class GEOSContext {
     let handle: GEOSContextHandle_t

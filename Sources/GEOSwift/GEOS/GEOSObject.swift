@@ -1,4 +1,4 @@
-import geos
+@_implementationOnly import geos
 
 public enum GEOSObjectType: Hashable, Sendable {
     case point

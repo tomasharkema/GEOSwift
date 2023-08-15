@@ -1,4 +1,4 @@
-import geos
+@_implementationOnly import geos
 
 public protocol ClosednessTestable: GeometryConvertible {
     func isClosed() throws -> Bool

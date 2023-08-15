@@ -1,4 +1,4 @@
-import geos
+@_implementationOnly import geos
 
 extension LineString: GEOSObjectInitializable {
     init(geosObject: GEOSObject) throws {

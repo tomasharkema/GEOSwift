@@ -1,5 +1,5 @@
 import XCTest
-import geos
+@_implementationOnly import geos
 @testable import GEOSwift
 
 final class GEOSContextTests: GEOSContextTestCase {

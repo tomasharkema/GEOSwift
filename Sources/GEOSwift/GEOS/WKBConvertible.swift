@@ -1,5 +1,5 @@
 import Foundation
-import geos
+@_implementationOnly import geos
 
 public protocol WKBConvertible {
     func wkb() throws -> Data

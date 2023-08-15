@@ -1,4 +1,4 @@
-import geos
+@_implementationOnly import geos
 
 public protocol SimplicityTestable: GeometryConvertible {
     func isSimple() throws -> Bool

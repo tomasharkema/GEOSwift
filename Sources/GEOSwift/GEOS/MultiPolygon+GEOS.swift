@@ -1,4 +1,4 @@
-import geos
+@_implementationOnly import geos
 
 extension MultiPolygon: GEOSObjectInitializable {
     init(geosObject: GEOSObject) throws {

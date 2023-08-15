@@ -1,16 +1,14 @@
 {
-  "object": {
-    "pins": [
-      {
-        "package": "geos",
-        "repositoryURL": "https://github.com/GEOSwift/geos.git",
-        "state": {
-          "branch": null,
-          "revision": "f510e634c822116fca615064d889300dba40d761",
-          "version": "8.1.0"
-        }
+  "pins" : [
+    {
+      "identity" : "geos",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/tomasharkema/geos.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "84f09fd636744cabad191e4c9800e5f951ae1c86"
       }
-    ]
-  },
-  "version": 1
+    }
+  ],
+  "version" : 2
 }

@@ -1,4 +1,4 @@
-import geos
+@_implementationOnly import geos
 
 public struct Circle: Hashable, Sendable {
     public var center: Point

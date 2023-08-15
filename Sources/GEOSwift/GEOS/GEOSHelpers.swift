@@ -1,4 +1,4 @@
-import geos
+@_implementationOnly import geos
 
 func makeGeometries<T>(geometry: GEOSObject) throws -> [T] where T: GEOSObjectInitializable {
     let numGeometries = GEOSGetNumGeometries_r(geometry.context.handle, geometry.pointer)
