@@ -1,3 +1,5 @@
+@_exported import geos
+
 public struct Envelope: Hashable, Sendable {
     public internal(set) var minX: Double
     public internal(set) var maxX: Double
