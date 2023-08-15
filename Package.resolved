@@ -5,8 +5,7 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/tomasharkema/geos.git",
       "state" : {
-        "branch" : "main",
-        "revision" : "84f09fd636744cabad191e4c9800e5f951ae1c86"
+        "revision" : "9fb3f39fc7e3bf0d40c21e5fa740ac8a6a0e2315"
       }
     }
   ],
